@@ -16,10 +16,10 @@ JS
           throw new Error();
       }
         let newArr = [];
-        for (let i = 0; i < arr.length; i++) {
+        for (let i = 0; i < arr.length; i+=1) {
          if(arr[i] === '--discard-next') {
            if (arr.length - i >= 2) {
-            i++
+            i+=1
            }
          } else if(arr[i] === '--discard-prev') {
             if (i >= 1 && arr[i - 2] !== "--discard-next") {
