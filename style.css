@@ -62,8 +62,11 @@ html {
     display: flex;
     padding: 40px 30px 35px;
     justify-content: space-around;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     border-bottom: 15px solid #000000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .section-profile {
