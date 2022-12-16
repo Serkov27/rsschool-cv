@@ -62,7 +62,7 @@ html {
     display: flex;
     padding: 40px 30px 35px;
     justify-content: space-around;
-    width: 80%;
+    width: 100%;
     margin: auto;
     border-bottom: 15px solid #000000;
     border-bottom-left-radius: 20px;
@@ -115,4 +115,78 @@ html {
 h3 {
     font-weight: 300;
     letter-spacing: 3px;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    font-size: 25px;
+    border-bottom: 5px double #000000;
+}
+
+.section-title {
+    float: left;
+    padding: 50px;
+    width: 500px;
+    letter-spacing: 5px;
+}
+
+.section-list {
+    float: left;
+    padding: 20px;
+    width: 500px;
+}
+
+.section-list {
+    font-size: 25px;
+}
+
+li {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(27, 126, 96);
+    font-size: 20px;
+    padding: 5px;
+}
+
+.section-text {
+    font-size: 25px;
+    line-height: 1.5;
+    padding: 5px;
+    text-align: justify;
+    width: calc(65% - 20px);
+    float: left;
+}
+
+.pre {
+    float: left;
+    color: rgb(79, 110, 67);
+    padding: 0;
+    margin: 0;
+}
+
+.section-edu {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: auto;
+    font-size: 25px;
+    border-bottom: 5px double #000000;
+}
+
+.section-title-edu {
+    width: 500px;
+}
+
+.section-title-lng {
+    width: 500px;
 }
