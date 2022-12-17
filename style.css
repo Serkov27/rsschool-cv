@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url("assets/fonts/Poppins-Italic.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("assets/fonts/Poppins-LightItalic.ttf");
+    font-weight: 200;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    font-family: 'Poppins' sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #000000fb;
+    list-style: none;
+}
+
+.header-container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    max-width: 1440px;
+    margin: auto;
+    min-height: 50px;
+}
+
+.icon a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 25px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.icon {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.icon:hover{
+    background-color: rgb(31, 100, 146);
+    border-radius: 4px;
+}
+
+.main {
+    background-color: rgb(212, 212, 211);
+}
+
+.main-container {
+    display: flex;
+    padding: 40px 30px 35px;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    border-bottom: 15px solid #000000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding: 40px 25px 30px;
+}
+
+.section-profile-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding-right: 50px;
+}
+
+.main-title {
+    position: relative;
+    padding: 0;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    line-height: 30px;
+}
+
+.main-title::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -7%;
+    width: 500px;
+    height: 5px;
+    background-color: #000000;
+}
+
+h3 {
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    font-size: 25px;
+    border-bottom: 5px double #000000;
+}
+
+.section-title {
+    float: left;
+    padding: 50px;
+    width: 500px;
+    letter-spacing: 5px;
+}
+
+.section-list {
+    float: left;
+    padding: 20px;
+    width: 500px;
+}
+
+.section-list {
+    font-size: 25px;
+}
+
+li {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(27, 126, 96);
+    font-size: 20px;
+    padding: 5px;
+}
+
+.section-text {
+    font-size: 25px;
+    line-height: 1.5;
+    padding: 5px;
+    text-align: justify;
+    width: calc(65% - 20px);
+    float: left;
+}
+
+.pre {
+    float: left;
+    color: rgb(79, 110, 67);
+    padding: 0;
+    margin: 0;
+}
+
+.section-edu {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: auto;
+    font-size: 25px;
+    border-bottom: 5px double #000000;
+}
+
+.section-title-edu {
+    width: 500px;
+}
+
+.section-title-lng {
+    width: 500px;
+}
+
+.footer {
+    background-color: rgb(145, 145, 145);
+    padding: 30px;
+    color: azure;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-size: 25px;
+    max-width: 1440px;
+    min-height: 50px;
+}
+
+.github-link {
+    position: relative;
+    color: rgb(3, 3, 3);
+    font-size: 25px;
+}
+
+.github-link::after {
+    content: "";
+    position: absolute;
+    right: 5px;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.github-link:hover:after {
+    width: calc(100% - 10px);
+    left: 5px;
+}
+
+.rss {
+    width: 140px;
+    height: 55px;
+    background-image: url(./assets/img/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: rgb(68, 206, 199);
+}
