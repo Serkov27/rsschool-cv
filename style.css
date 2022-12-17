@@ -27,7 +27,7 @@ html {
     list-style: none;
 }
 
-.headercontainer {
+.header-container {
     display: flex;
     padding: 10px;
     justify-content: center;
@@ -189,4 +189,50 @@ a {
 
 .section-title-lng {
     width: 500px;
+}
+
+.footer {
+    background-color: rgb(145, 145, 145);
+    padding: 30px;
+    color: azure;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-size: 25px;
+    max-width: 1440px;
+    min-height: 50px;
+}
+
+.github-link {
+    position: relative;
+    color: rgb(3, 3, 3);
+    font-size: 25px;
+}
+
+.github-link::after {
+    content: "";
+    position: absolute;
+    right: 5px;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.github-link:hover:after {
+    width: calc(100% - 10px);
+    left: 5px;
+}
+
+.rss {
+    width: 140px;
+    height: 55px;
+    background-image: url(./assets/img/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: rgb(68, 206, 199);
 }
