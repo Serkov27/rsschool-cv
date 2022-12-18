@@ -9,7 +9,7 @@
     src: url("assets/fonts/Poppins-LightItalic.ttf");
     font-weight: 200;
 }
-@media (max-width: 768px) {
+@media (max-width: 540px) {
     .section {
         width: 100%;
     }
@@ -23,7 +23,7 @@ html {
     font-family: 'Poppins' sans-serif;
     display: flex;
     justify-content: space-between;
-    min-width: 320px;
+    max-width: 1440px;
     min-height: 100vh;
     margin: 0;
     padding: 0;
