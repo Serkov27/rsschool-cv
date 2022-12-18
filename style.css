@@ -88,6 +88,7 @@ html {
 }
 
 .section-profile-photo {
+    display: flex;
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -117,8 +118,8 @@ html {
     content: "";
     position: absolute;
     bottom: -20px;
-    left: -7%;
-    width: 500px;
+    left: 0;
+    width: 450px;
     height: 5px;
     background-color: #000000;
 }
