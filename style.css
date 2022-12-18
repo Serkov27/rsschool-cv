@@ -9,6 +9,11 @@
     src: url("assets/fonts/Poppins-LightItalic.ttf");
     font-weight: 200;
 }
+@media (max-width: 540px) {
+    .section {
+        width: 100%;
+    }
+}
 
 html {
     scroll-behavior: smooth;
@@ -16,6 +21,12 @@ html {
 
 .body {
     font-family: 'Poppins' sans-serif;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 * {
@@ -77,6 +88,7 @@ html {
 }
 
 .section-profile-photo {
+    display: flex;
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -106,8 +118,8 @@ html {
     content: "";
     position: absolute;
     bottom: -20px;
-    left: -7%;
-    width: 500px;
+    left: 0;
+    width: 450px;
     height: 5px;
     background-color: #000000;
 }
